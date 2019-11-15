@@ -19,8 +19,18 @@
 #include "fxos8700.h"
 #include "discovery.h"
 
+/******** DEFINES **************************************************/
+#define VIBRATION_THRESHOLD                0x10 /* With 2g range, 3,9 mg threshold */
+#define VIBRATION_COUNT                    2
 /******* GLOBAL VARIABLES ******************************************/
-u8 firmware_version[] = "TEMPLATE";
+typedef struct {
+  u8 EVENT_ID : 4;
+  u8 AX : 4;
+  u8 AY : 4;
+  u8 AZ : 4;
+} data_s;
+
+u8 firmware_version[] = "GUILLEZ VPP";
 
 /*******************************************************************/
 
@@ -30,6 +40,10 @@ int main()
     button_e btn;
     u16 battery_level;
     bool send = FALSE;
+
+    /* Discovery payload variable */
+    discovery_data_s data = {0};
+    discovery_payload_s payload;
 
     /* Start of initialization */
 
@@ -51,6 +65,9 @@ int main()
     /* Initialize accelerometer */
     err = FXOS8700_init();
     ERROR_parser(err);
+
+    /* Put accelerometer in transient mode */
+    FXOS8700_set_transient_mode(FXOS8700_RANGE_2G, VIBRATION_THRESHOLD, VIBRATION_COUNT);
 
     /* Clear pending interrupt */
     pending_interrupt = 0;
@@ -83,7 +100,7 @@ int main()
             /* RGB Led OFF */
             SENSIT_API_set_rgb_led(RGB_OFF);
 
-            if (btn == BUTTON_THREE_PRESSES)
+            if (btn == BUTTON_TWO_PRESSES)
             {
                 /* Force a RTC alarm interrupt to do a new measurement */
                 pending_interrupt |= INTERRUPT_MASK_RTC;
@@ -111,6 +128,19 @@ int main()
         /* Accelerometer interrupt handler */
         if ((pending_interrupt & INTERRUPT_MASK_FXOS8700) == INTERRUPT_MASK_FXOS8700)
         {
+            /* Read transient interrupt register */
+            FXOS8700_clear_transient_interrupt(&(data.vibration));
+            /* Check if a movement has been detected */
+            if (data.vibration == TRUE)
+            {
+                /* Set send message flag */
+                send = TRUE;
+                /* Increment event counter */
+                data.event_counter++;
+                FXOS8700_read_acceleration(&data);
+
+            }
+
             /* Clear interrupt */
             pending_interrupt &= ~INTERRUPT_MASK_FXOS8700;
         }
@@ -118,11 +148,25 @@ int main()
         /* Check if we need to send a message */
         if (send == TRUE)
         {
+            /* Build the payload */
+            DISCOVERY_build_payload(&payload, MODE_VIBRATION, &data);
 
             /* Send the message */
-            err = RADIO_API_send_message(RGB_MAGENTA, (u8 *)"OH", 2, FALSE, NULL);
+            err = RADIO_API_send_message(RGB_BLUE, (u8*)&payload, DISCOVERY_PAYLOAD_SIZE, FALSE, NULL);
             /* Parse the error code */
             ERROR_parser(err);
+
+            if (err == RADIO_ERR_NONE)
+            {
+                /* Reset event counter */
+                data.event_counter = 0;
+            }
+
+            /* Clear vibration flag */
+            data.vibration = FALSE;
+
+            /* Clear button flag */
+            data.button = FALSE;
 
             /* Clear send flag */
             send = FALSE;

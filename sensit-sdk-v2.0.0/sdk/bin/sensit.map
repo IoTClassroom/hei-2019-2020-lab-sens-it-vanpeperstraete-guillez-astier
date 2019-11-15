@@ -87,7 +87,7 @@ c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/ar
 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memcpy-stub.o)
                               C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o) (memcpy)
 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
-                              C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o) (memset)
+                              C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o (memset)
 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
                               C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o) (__gnu_thumb1_case_uqi)
 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
@@ -201,12 +201,6 @@ Discarded input sections
  .bss           0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
  .text.FXOS8700_set_standby_mode
                 0x00000000       0x22 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .text.FXOS8700_set_transient_mode
-                0x00000000       0xf0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .text.FXOS8700_clear_transient_interrupt
-                0x00000000       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .text.FXOS8700_read_acceleration
-                0x00000000       0x54 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
  .text          0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//AT_parser.o
  .data          0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//AT_parser.o
  .bss           0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//AT_parser.o
@@ -287,20 +281,6 @@ Discarded input sections
  .text          0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
  .data          0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
  .bss           0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .text.DISCOVERY_build_payload
-                0x00000000      0x108 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .debug_info    0x00000000      0x32d C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .debug_abbrev  0x00000000       0xf7 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .debug_loc     0x00000000       0xa3 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .debug_aranges
-                0x00000000       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .debug_ranges  0x00000000       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .debug_line    0x00000000      0x1de C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .debug_str     0x00000000      0x380 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .comment       0x00000000       0x77 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .debug_frame   0x00000000       0x34 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
- .ARM.attributes
-                0x00000000       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
  .text          0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
  .bss           0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
  .text          0x00000000        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(addon_sigfox_verified_api.o)
@@ -339,8 +319,6 @@ Discarded input sections
                 0x00000000       0x70 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
  .text.SENSIT_API_get_reed_switch_state
                 0x00000000       0x24 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
- .text.SENSIT_API_configure_fxos8700_interrupt
-                0x00000000       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
  .text.SENSIT_API_init_nv_mem
                 0x00000000       0x24 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
  .text.SENSIT_API_get_nv_mem
@@ -860,7 +838,7 @@ LOAD C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-l
                 0x08000000                g_pfnVectors
                 0x080000c0                . = ALIGN (0x4)
 
-.text           0x080000c0     0x5930
+.text           0x080000c0     0x5c18
                 0x080000c0                . = ALIGN (0x4)
  *(.text)
  .text          0x080000c0       0x14 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
@@ -952,652 +930,664 @@ LOAD C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-l
                 0x08001360       0x2e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
                 0x08001360                FXOS8700_init
  *fill*         0x0800138e        0x2 
+ .text.FXOS8700_set_transient_mode
+                0x08001390       0xf0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
+                0x08001390                FXOS8700_set_transient_mode
+ .text.FXOS8700_clear_transient_interrupt
+                0x08001480       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
+                0x08001480                FXOS8700_clear_transient_interrupt
+ .text.FXOS8700_read_acceleration
+                0x080014a8       0x54 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
+                0x080014a8                FXOS8700_read_acceleration
+ .text.DISCOVERY_build_payload
+                0x080014fc      0x108 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+                0x080014fc                DISCOVERY_build_payload
  .text.startup.main
-                0x08001390       0xcc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
-                0x08001390                main
+                0x08001604      0x110 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+                0x08001604                main
  .text.MCU_API_malloc
-                0x0800145c       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800145c                MCU_API_malloc
+                0x08001714       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001714                MCU_API_malloc
  .text.MCU_API_free
-                0x08001470        0x4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001470                MCU_API_free
+                0x08001728        0x4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001728                MCU_API_free
  .text.MCU_API_get_voltage_temperature
-                0x08001474       0x22 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001474                MCU_API_get_voltage_temperature
+                0x0800172c       0x22 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x0800172c                MCU_API_get_voltage_temperature
  .text.MCU_API_delay
-                0x08001496       0x3e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001496                MCU_API_delay
+                0x0800174e       0x3e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x0800174e                MCU_API_delay
  .text.MCU_API_aes_128_cbc_encrypt
-                0x080014d4       0x62 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080014d4                MCU_API_aes_128_cbc_encrypt
+                0x0800178c       0x62 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x0800178c                MCU_API_aes_128_cbc_encrypt
  .text.MCU_API_get_nv_mem
-                0x08001536        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001536                MCU_API_get_nv_mem
+                0x080017ee        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080017ee                MCU_API_get_nv_mem
  .text.MCU_API_set_nv_mem
-                0x08001544       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001544                MCU_API_set_nv_mem
- *fill*         0x0800155a        0x2 
+                0x080017fc       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080017fc                MCU_API_set_nv_mem
+ *fill*         0x08001812        0x2 
  .text.MCU_API_timer_start_carrier_sense
-                0x0800155c       0x60 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800155c                MCU_API_timer_start_carrier_sense
+                0x08001814       0x60 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001814                MCU_API_timer_start_carrier_sense
  .text.TIM16_IRQHandler
-                0x080015bc       0x24 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080015bc                TIM16_IRQHandler
+                0x08001874       0x24 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001874                TIM16_IRQHandler
  .text.MCU_API_timer_start
-                0x080015e0        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080015e0                MCU_API_timer_start
+                0x08001898        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001898                MCU_API_timer_start
  .text.MCU_API_timer_stop
-                0x080015ec        0x4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080015ec                MCU_API_timer_stop
+                0x080018a4        0x4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018a4                MCU_API_timer_stop
  .text.MCU_API_timer_stop_carrier_sense
-                0x080015f0       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080015f0                MCU_API_timer_stop_carrier_sense
+                0x080018a8       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018a8                MCU_API_timer_stop_carrier_sense
  .text.MCU_API_timer_wait_for_end
-                0x08001628       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001628                MCU_API_timer_wait_for_end
+                0x080018e0       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018e0                MCU_API_timer_wait_for_end
  .text.MCU_API_report_test_result
-                0x08001638        0xa C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001638                MCU_API_report_test_result
+                0x080018f0        0xa C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018f0                MCU_API_report_test_result
  .text.MCU_API_get_device_id
-                0x08001642       0x12 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001642                MCU_API_get_device_id
+                0x080018fa       0x12 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018fa                MCU_API_get_device_id
  .text.NVMEM_API_get_device_id
-                0x08001654       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001654                NVMEM_API_get_device_id
+                0x0800190c       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x0800190c                NVMEM_API_get_device_id
  .text.NVMEM_API_get_frequency_calibration
-                0x08001680       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001680                NVMEM_API_get_frequency_calibration
+                0x08001938       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001938                NVMEM_API_get_frequency_calibration
  .text.NVMEM_API_get_radio_configuration
-                0x0800169c       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x0800169c                NVMEM_API_get_radio_configuration
+                0x08001954       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001954                NVMEM_API_get_radio_configuration
  .text.NVMEM_API_compute_aes
-                0x080016b0       0xc8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080016b0                NVMEM_API_compute_aes
+                0x08001968       0xc8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001968                NVMEM_API_compute_aes
  .text.NVMEM_API_init_page_index
-                0x08001778       0xb4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001778                NVMEM_API_init_page_index
+                0x08001a30       0xb4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001a30                NVMEM_API_init_page_index
  .text.NVMEM_API_init
-                0x0800182c       0xa0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x0800182c                NVMEM_API_init
+                0x08001ae4       0xa0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001ae4                NVMEM_API_init
  .text.NVMEM_API_set_data
-                0x080018cc       0xd8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080018cc                NVMEM_API_set_data
+                0x08001b84       0xd8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001b84                NVMEM_API_set_data
  .text.NVMEM_API_get_data
-                0x080019a4       0x58 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080019a4                NVMEM_API_get_data
+                0x08001c5c       0x58 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001c5c                NVMEM_API_get_data
  .text.RADIO_init
-                0x080019fc       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x080019fc                RADIO_init
+                0x08001cb4       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001cb4                RADIO_init
  .text.RADIO_power_on
-                0x08001a18       0x44 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001a18                RADIO_power_on
+                0x08001cd0       0x44 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001cd0                RADIO_power_on
  .text.RADIO_power_off
-                0x08001a5c       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001a5c                RADIO_power_off
+                0x08001d14       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001d14                RADIO_power_off
  .text.RADIO_get_state
-                0x08001a88        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001a88                RADIO_get_state
+                0x08001d40        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001d40                RADIO_get_state
  .text.RADIO_set_rf_line
-                0x08001a94       0x50 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001a94                RADIO_set_rf_line
+                0x08001d4c       0x50 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001d4c                RADIO_set_rf_line
  .text.RADIO_is_600bps
-                0x08001ae4       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001ae4                RADIO_is_600bps
+                0x08001d9c       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001d9c                RADIO_is_600bps
  .text.RTC_init
-                0x08001afc       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001afc                RTC_init
+                0x08001db4       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001db4                RTC_init
  .text.RTC_get_current_time
-                0x08001b28        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001b28                RTC_get_current_time
+                0x08001de0        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001de0                RTC_get_current_time
  .text.RTC_set_alarm_timer
-                0x08001b34       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001b34                RTC_set_alarm_timer
+                0x08001dec       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001dec                RTC_set_alarm_timer
  .text.RTC_set_rx_timer
-                0x08001b48        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001b48                RTC_set_rx_timer
+                0x08001e00        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001e00                RTC_set_rx_timer
  .text.RTC_wait_frame
-                0x08001b54       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001b54                RTC_wait_frame
+                0x08001e0c       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001e0c                RTC_wait_frame
  .text.RTC_IRQHandler
-                0x08001b80       0x68 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001b80                RTC_IRQHandler
- .text._init    0x08001be8       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001be8                _init
+                0x08001e38       0x68 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001e38                RTC_IRQHandler
+ .text._init    0x08001ea0       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ea0                _init
  .text.SENSIT_API_configure_radio
-                0x08001c04       0x2a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001c04                SENSIT_API_configure_radio
+                0x08001ebc       0x2a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ebc                SENSIT_API_configure_radio
  .text.SENSIT_API_switch_radio
-                0x08001c2e       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001c2e                SENSIT_API_switch_radio
- *fill*         0x08001c66        0x2 
+                0x08001ee6       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ee6                SENSIT_API_switch_radio
+ *fill*         0x08001f1e        0x2 
  .text.SENSIT_API_reset
-                0x08001c68       0x60 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001c68                SENSIT_API_reset
+                0x08001f20       0x60 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001f20                SENSIT_API_reset
  .text.SENSIT_API_sleep
-                0x08001cc8        0xa C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001cc8                SENSIT_API_sleep
+                0x08001f80        0xa C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001f80                SENSIT_API_sleep
  .text.SENSIT_API_set_rtc_alarm
-                0x08001cd2        0xa C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001cd2                SENSIT_API_set_rtc_alarm
+                0x08001f8a        0xa C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001f8a                SENSIT_API_set_rtc_alarm
  .text.SENSIT_API_configure_button
-                0x08001cdc       0x50 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001cdc                SENSIT_API_configure_button
+                0x08001f94       0x50 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001f94                SENSIT_API_configure_button
  .text.SENSIT_API_get_button_state
-                0x08001d2c       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d2c                SENSIT_API_get_button_state
+                0x08001fe4       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001fe4                SENSIT_API_get_button_state
  .text.SENSIT_API_set_rgb_led
-                0x08001d40       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d40                SENSIT_API_set_rgb_led
+                0x08001ff8       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ff8                SENSIT_API_set_rgb_led
  .text.SENSIT_API_set_white_led
-                0x08001d70       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d70                SENSIT_API_set_white_led
+                0x08002028       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002028                SENSIT_API_set_white_led
  .text.SENSIT_API_get_battery_level
-                0x08001d88        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d88                SENSIT_API_get_battery_level
+                0x08002040        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002040                SENSIT_API_get_battery_level
  .text.SENSIT_API_get_current_time
-                0x08001d96        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d96                SENSIT_API_get_current_time
+                0x0800204e        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x0800204e                SENSIT_API_get_current_time
  .text.SENSIT_API_wait
-                0x08001da4        0xa C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001da4                SENSIT_API_wait
+                0x0800205c        0xa C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x0800205c                SENSIT_API_wait
  .text.SENSIT_API_write_read_i2c_bus
-                0x08001dae       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001dae                SENSIT_API_write_read_i2c_bus
- *fill*         0x08001dce        0x2 
+                0x08002066       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002066                SENSIT_API_write_read_i2c_bus
+ *fill*         0x08002086        0x2 
+ .text.SENSIT_API_configure_fxos8700_interrupt
+                0x08002088       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002088                SENSIT_API_configure_fxos8700_interrupt
  .text.SENSIT_API_reset_device_sequence_number
-                0x08001dd0       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001dd0                SENSIT_API_reset_device_sequence_number
+                0x080020b8       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x080020b8                SENSIT_API_reset_device_sequence_number
  .text.SIGFOX_API_open
-                0x08001df0      0x1b4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x08001df0                SIGFOX_API_open
+                0x080020d8      0x1b4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x080020d8                SIGFOX_API_open
  .text.SIGFOX_API_send_frame
-                0x08001fa4       0x48 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x08001fa4                SIGFOX_API_send_frame
+                0x0800228c       0x48 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x0800228c                SIGFOX_API_send_frame
  .text.SIGFOX_API_set_std_config
-                0x08001fec       0x90 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x08001fec                SIGFOX_API_set_std_config
+                0x080022d4       0x90 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x080022d4                SIGFOX_API_set_std_config
  .text.SIGFOX_INT_randomize
-                0x0800207c       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800207c                SIGFOX_INT_randomize
+                0x08002364       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002364                SIGFOX_INT_randomize
  .text.SIGFOX_INT_get_max_micro_channel
-                0x08002092       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002092                SIGFOX_INT_get_max_micro_channel
+                0x0800237a       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x0800237a                SIGFOX_INT_get_max_micro_channel
  .text.SIGFOX_INT_get_macro_channel_index
-                0x080020c2       0x5a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080020c2                SIGFOX_INT_get_macro_channel_index
+                0x080023aa       0x5a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080023aa                SIGFOX_INT_get_macro_channel_index
  .text.SIGFOX_INT_dc_lbt_channel_pn_max
-                0x0800211c       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800211c                SIGFOX_INT_dc_lbt_channel_pn_max
+                0x08002404       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002404                SIGFOX_INT_dc_lbt_channel_pn_max
  .text.SIGFOX_INT_dc_lbt_channel_pn_min
-                0x0800214c       0x22 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800214c                SIGFOX_INT_dc_lbt_channel_pn_min
+                0x08002434       0x22 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002434                SIGFOX_INT_dc_lbt_channel_pn_min
  .text.RETURN_CODE
-                0x0800216e        0x8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800216e                RETURN_CODE
- *fill*         0x08002176        0x2 
+                0x08002456        0x8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002456                RETURN_CODE
+ *fill*         0x0800245e        0x2 
  .text.SIGFOX_INT_compute_channels
-                0x08002178      0x134 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002178                SIGFOX_INT_compute_channels
+                0x08002460      0x134 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002460                SIGFOX_INT_compute_channels
  .text.SIGFOX_INT_compute_carrier_sense_frequency
-                0x080022ac       0x2e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080022ac                SIGFOX_INT_compute_carrier_sense_frequency
+                0x08002594       0x2e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002594                SIGFOX_INT_compute_carrier_sense_frequency
  .text.SIGFOX_INT_store_nvm
-                0x080022da       0x32 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080022da                SIGFOX_INT_store_nvm
+                0x080025c2       0x32 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080025c2                SIGFOX_INT_store_nvm
  .text.SIGFOX_INT_build_frame
-                0x0800230c      0x1da C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800230c                SIGFOX_INT_build_frame
- *fill*         0x080024e6        0x2 
+                0x080025f4      0x1da C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080025f4                SIGFOX_INT_build_frame
+ *fill*         0x080027ce        0x2 
  .text.SIGFOX_INT_prepare_transmission
-                0x080024e8       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080024e8                SIGFOX_INT_prepare_transmission
+                0x080027d0       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080027d0                SIGFOX_INT_prepare_transmission
  .text.SIGFOX_INT_send_single_frame
-                0x08002570       0x98 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002570                SIGFOX_INT_send_single_frame
+                0x08002858       0x98 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002858                SIGFOX_INT_send_single_frame
  .text.SIGFOX_INT_execute_carrier_sense
-                0x08002608       0x3a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002608                SIGFOX_INT_execute_carrier_sense
+                0x080028f0       0x3a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080028f0                SIGFOX_INT_execute_carrier_sense
  .text.SIGFOX_INT_downlink_configuration
-                0x08002642       0x4c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002642                SIGFOX_INT_downlink_configuration
+                0x0800292a       0x4c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x0800292a                SIGFOX_INT_downlink_configuration
  .text.SIGFOX_INT_get_received_frames
-                0x0800268e      0x10a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800268e                SIGFOX_INT_get_received_frames
+                0x08002976      0x10a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002976                SIGFOX_INT_get_received_frames
  .text.SIGFOX_INT_process_downlink
-                0x08002798       0x46 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002798                SIGFOX_INT_process_downlink
- *fill*         0x080027de        0x2 
+                0x08002a80       0x46 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002a80                SIGFOX_INT_process_downlink
+ *fill*         0x08002ac6        0x2 
  .text.SIGFOX_INT_compute_uplink_frequency
-                0x080027e0       0x94 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080027e0                SIGFOX_INT_compute_uplink_frequency
+                0x08002ac8       0x94 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002ac8                SIGFOX_INT_compute_uplink_frequency
  .text.SIGFOX_INT_process_uplink
-                0x08002874      0x28c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002874                SIGFOX_INT_process_uplink
+                0x08002b5c      0x28c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002b5c                SIGFOX_INT_process_uplink
  .text.SIGFOX_INT_execute_communication_sequence
-                0x08002b00      0x118 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002b00                SIGFOX_INT_execute_communication_sequence
+                0x08002de8      0x118 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002de8                SIGFOX_INT_execute_communication_sequence
  .text.SIGFOX_INT_get_device_id
-                0x08002c18       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002c18                SIGFOX_INT_get_device_id
+                0x08002f00       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002f00                SIGFOX_INT_get_device_id
  .text.SIGFOX_PN_next_pn
-                0x08002c30       0x50 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
-                0x08002c30                SIGFOX_PN_next_pn
+                0x08002f18       0x50 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
+                0x08002f18                SIGFOX_PN_next_pn
  .text.SIGFOX_SCRAMB_compute
-                0x08002c80       0x8c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
-                0x08002c80                SIGFOX_SCRAMB_compute
+                0x08002f68       0x8c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
+                0x08002f68                SIGFOX_SCRAMB_compute
  .text.SLEEP_handler
-                0x08002d0c       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sleep.o)
-                0x08002d0c                SLEEP_handler
+                0x08002ff4       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sleep.o)
+                0x08002ff4                SLEEP_handler
  .text.SPI_init
-                0x08002d94       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002d94                SPI_init
+                0x0800307c       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x0800307c                SPI_init
  .text.SPI_disable
-                0x08002dc4       0x34 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002dc4                SPI_disable
+                0x080030ac       0x34 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x080030ac                SPI_disable
  .text.SPI_enable
-                0x08002df8       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002df8                SPI_enable
+                0x080030e0       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x080030e0                SPI_enable
  .text.SPI_write_read
-                0x08002e28       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002e28                SPI_write_read
+                0x08003110       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x08003110                SPI_write_read
  .text.Reset_Handler
-                0x08002e54       0x80 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
-                0x08002e54                Reset_Handler
+                0x0800313c       0x80 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
+                0x0800313c                Reset_Handler
  .text.Default_Handler
-                0x08002ed4        0x2 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
-                0x08002ed4                TIM1_CC_IRQHandler
-                0x08002ed4                TSC_IRQHandler
-                0x08002ed4                SysTick_Handler
-                0x08002ed4                PendSV_Handler
-                0x08002ed4                I2C1_IRQHandler
-                0x08002ed4                RCC_CRS_IRQHandler
-                0x08002ed4                SPI1_IRQHandler
-                0x08002ed4                EXTI2_3_IRQHandler
-                0x08002ed4                ADC1_IRQHandler
-                0x08002ed4                TIM17_IRQHandler
-                0x08002ed4                CEC_CAN_IRQHandler
-                0x08002ed4                PVD_VDDIO2_IRQHandler
-                0x08002ed4                TIM3_IRQHandler
-                0x08002ed4                DMA1_Channel1_IRQHandler
-                0x08002ed4                Default_Handler
-                0x08002ed4                TIM14_IRQHandler
-                0x08002ed4                DMA1_Channel4_5_IRQHandler
-                0x08002ed4                EXTI0_1_IRQHandler
-                0x08002ed4                SPI2_IRQHandler
-                0x08002ed4                SVC_Handler
-                0x08002ed4                DMA1_Channel2_3_IRQHandler
-                0x08002ed4                USART2_IRQHandler
-                0x08002ed4                FLASH_IRQHandler
-                0x08002ed4                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x08002ed6        0x2 
+                0x080031bc        0x2 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
+                0x080031bc                TIM1_CC_IRQHandler
+                0x080031bc                TSC_IRQHandler
+                0x080031bc                SysTick_Handler
+                0x080031bc                PendSV_Handler
+                0x080031bc                I2C1_IRQHandler
+                0x080031bc                RCC_CRS_IRQHandler
+                0x080031bc                SPI1_IRQHandler
+                0x080031bc                EXTI2_3_IRQHandler
+                0x080031bc                ADC1_IRQHandler
+                0x080031bc                TIM17_IRQHandler
+                0x080031bc                CEC_CAN_IRQHandler
+                0x080031bc                PVD_VDDIO2_IRQHandler
+                0x080031bc                TIM3_IRQHandler
+                0x080031bc                DMA1_Channel1_IRQHandler
+                0x080031bc                Default_Handler
+                0x080031bc                TIM14_IRQHandler
+                0x080031bc                DMA1_Channel4_5_IRQHandler
+                0x080031bc                EXTI0_1_IRQHandler
+                0x080031bc                SPI2_IRQHandler
+                0x080031bc                SVC_Handler
+                0x080031bc                DMA1_Channel2_3_IRQHandler
+                0x080031bc                USART2_IRQHandler
+                0x080031bc                FLASH_IRQHandler
+                0x080031bc                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x080031be        0x2 
  .text.SystemInit
-                0x08002ed8      0x178 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
-                0x08002ed8                SystemInit
+                0x080031c0      0x178 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
+                0x080031c0                SystemInit
  .text.SYSTICK_wait_ms
-                0x08003050       0x84 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(systick.o)
-                0x08003050                SYSTICK_wait_ms
+                0x08003338       0x84 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(systick.o)
+                0x08003338                SYSTICK_wait_ms
  .text.SYSTICK_wait_tick
-                0x080030d4       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(systick.o)
-                0x080030d4                SYSTICK_wait_tick
+                0x080033bc       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(systick.o)
+                0x080033bc                SYSTICK_wait_tick
  .text.USART1_IRQHandler
-                0x0800310c       0x68 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(uart.o)
-                0x0800310c                USART1_IRQHandler
+                0x080033f4       0x68 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(uart.o)
+                0x080033f4                USART1_IRQHandler
  .text.HAL_PCD_SetupStageCallback
-                0x08003174       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003174                HAL_PCD_SetupStageCallback
+                0x0800345c       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800345c                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x08003188       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003188                HAL_PCD_DataOutStageCallback
+                0x08003470       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003470                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x080031a0       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080031a0                HAL_PCD_DataInStageCallback
+                0x08003488       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003488                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x080031b6        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080031b6                HAL_PCD_SOFCallback
+                0x0800349e        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800349e                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x080031c4       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080031c4                HAL_PCD_ResetCallback
+                0x080034ac       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034ac                HAL_PCD_ResetCallback
  .text.HAL_PCD_SuspendCallback
-                0x080031dc        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080031dc                HAL_PCD_SuspendCallback
+                0x080034c4        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034c4                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x080031ea        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080031ea                HAL_PCD_ResumeCallback
+                0x080034d2        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034d2                HAL_PCD_ResumeCallback
  .text.USBD_LL_OpenEP
-                0x080031f8       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080031f8                USBD_LL_OpenEP
+                0x080034e0       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034e0                USBD_LL_OpenEP
  .text.USBD_LL_StallEP
-                0x0800320e       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x0800320e                USBD_LL_StallEP
+                0x080034f6       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034f6                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x0800321e       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x0800321e                USBD_LL_ClearStallEP
+                0x08003506       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003506                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x0800322e       0x26 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x0800322e                USBD_LL_IsStallEP
+                0x08003516       0x26 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003516                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x08003254       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003254                USBD_LL_SetUSBAddress
+                0x0800353c       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800353c                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x08003264       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003264                USBD_LL_Transmit
+                0x0800354c       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800354c                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x08003274       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003274                USBD_LL_PrepareReceive
+                0x0800355c       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800355c                USBD_LL_PrepareReceive
  .text.USB_IRQHandler
-                0x08003284       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003284                USB_IRQHandler
+                0x0800356c       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800356c                USB_IRQHandler
  .text.USBD_SetClassConfig
-                0x08003294       0x1a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003294                USBD_SetClassConfig
+                0x0800357c       0x1a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x0800357c                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x080032ae       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080032ae                USBD_ClrClassConfig
- *fill*         0x080032be        0x2 
+                0x08003596       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003596                USBD_ClrClassConfig
+ *fill*         0x080035a6        0x2 
  .text.USBD_LL_SetupStage
-                0x080032c0       0x68 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080032c0                USBD_LL_SetupStage
+                0x080035a8       0x68 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080035a8                USBD_LL_SetupStage
  .text.USBD_LL_DataOutStage
-                0x08003328       0x74 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003328                USBD_LL_DataOutStage
+                0x08003610       0x74 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003610                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x0800339c       0xac C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x0800339c                USBD_LL_DataInStage
+                0x08003684       0xac C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003684                USBD_LL_DataInStage
  .text.USBD_LL_Reset
-                0x08003448       0x48 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003448                USBD_LL_Reset
+                0x08003730       0x48 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003730                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x08003490        0x6 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003490                USBD_LL_SetSpeed
+                0x08003778        0x6 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003778                USBD_LL_SetSpeed
  .text.USBD_LL_Suspend
-                0x08003496       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003496                USBD_LL_Suspend
+                0x0800377e       0x16 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x0800377e                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x080034ac        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080034ac                USBD_LL_Resume
+                0x08003794        0xe C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003794                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x080034ba       0x1e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080034ba                USBD_LL_SOF
+                0x080037a2       0x1e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080037a2                USBD_LL_SOF
  .text.USBD_CtlError.constprop.0
-                0x080034d8       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x080037c0       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
  .text.USBD_StdDevReq
-                0x080034ec      0x224 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x080034ec                USBD_StdDevReq
+                0x080037d4      0x224 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x080037d4                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x08003710       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003710                USBD_StdItfReq
+                0x080039f8       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x080039f8                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x08003748       0xd4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003748                USBD_StdEPReq
+                0x08003a30       0xd4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x08003a30                USBD_StdEPReq
  .text.USBD_ParseSetupRequest
-                0x0800381c       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x0800381c                USBD_ParseSetupRequest
+                0x08003b04       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x08003b04                USBD_ParseSetupRequest
  .text.USBD_CtlSendData
-                0x08003844       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003844                USBD_CtlSendData
+                0x08003b2c       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b2c                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x08003860       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003860                USBD_CtlContinueSendData
+                0x08003b48       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b48                USBD_CtlContinueSendData
  .text.USBD_CtlContinueRx
-                0x08003870       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003870                USBD_CtlContinueRx
+                0x08003b58       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b58                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x08003880       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003880                USBD_CtlSendStatus
+                0x08003b68       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b68                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x08003898       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003898                USBD_CtlReceiveStatus
+                0x08003b80       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b80                USBD_CtlReceiveStatus
  .text.WATCHDOG_clear
-                0x080038b0       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(watchdog.o)
-                0x080038b0                WATCHDOG_clear
+                0x08003b98       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(watchdog.o)
+                0x08003b98                WATCHDOG_clear
  .text.ADC_init
-                0x080038c0       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x080038c0                ADC_init
+                0x08003ba8       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003ba8                ADC_init
  .text.ADC_measure_battery
-                0x08003948       0x84 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003948                ADC_measure_battery
+                0x08003c30       0x84 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003c30                ADC_measure_battery
  .text.ADC_get_last_battery_level
-                0x080039cc        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x080039cc                ADC_get_last_battery_level
+                0x08003cb4        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003cb4                ADC_get_last_battery_level
  .text.ADC_get_battery_level
-                0x080039d8       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x080039d8                ADC_get_battery_level
+                0x08003cc0       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003cc0                ADC_get_battery_level
  .text.ADC_measure_temperature
-                0x080039e8       0x68 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x080039e8                ADC_measure_temperature
+                0x08003cd0       0x68 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003cd0                ADC_measure_temperature
  .text.AESEncode
-                0x08003a50      0x1c0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(aes.o)
-                0x08003a50                AESEncode
+                0x08003d38      0x1c0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(aes.o)
+                0x08003d38                AESEncode
  .text.calibReadHSI48clk
-                0x08003c10       0x84 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x08003ef8       0x84 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(calib.o)
  .text.calibRTCclkIsCalibrated
-                0x08003c94      0x1a0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(calib.o)
-                0x08003c94                calibRTCclkIsCalibrated
+                0x08003f7c      0x1a0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x08003f7c                calibRTCclkIsCalibrated
  .text.calibHSI48clkIsCalibrated
-                0x08003e34       0x90 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(calib.o)
-                0x08003e34                calibHSI48clkIsCalibrated
+                0x0800411c       0x90 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x0800411c                calibHSI48clkIsCalibrated
  .text.CC1125_send_strobe
-                0x08003ec4       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x08003ec4                CC1125_send_strobe
+                0x080041ac       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x080041ac                CC1125_send_strobe
  .text.CC1125_write_reg
-                0x08003ef0       0x54 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x08003ef0                CC1125_write_reg
+                0x080041d8       0x54 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x080041d8                CC1125_write_reg
  .text.CC1125_read_reg
-                0x08003f44       0x54 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x08003f44                CC1125_read_reg
+                0x0800422c       0x54 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x0800422c                CC1125_read_reg
  .text.CC1125_output_clock
-                0x08003f98       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x08003f98                CC1125_output_clock
+                0x08004280       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x08004280                CC1125_output_clock
  .text.CRC_compute
-                0x08003fb0       0x4c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(crc.o)
-                0x08003fb0                CRC_compute
+                0x08004298       0x4c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(crc.o)
+                0x08004298                CRC_compute
  .text.FLASH_unlock
-                0x08003ffc       0x3c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x08003ffc                FLASH_unlock
+                0x080042e4       0x3c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x080042e4                FLASH_unlock
  .text.FLASH_lock
-                0x08004038       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x08004038                FLASH_lock
+                0x08004320       0x14 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x08004320                FLASH_lock
  .text.FLASH_write
-                0x0800404c       0x40 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x0800404c                FLASH_write
+                0x08004334       0x40 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x08004334                FLASH_write
  .text.FLASH_erase_page
-                0x0800408c       0x90 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x0800408c                FLASH_erase_page
+                0x08004374       0x90 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x08004374                FLASH_erase_page
  .text._handler
-                0x0800411c       0x44 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004404       0x44 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
  .text.GPIO_init
-                0x08004160       0xcc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x08004160                GPIO_init
+                0x08004448       0xcc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004448                GPIO_init
  .text.EXTI4_15_IRQHandler
-                0x0800422c       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x0800422c                EXTI4_15_IRQHandler
+                0x08004514       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004514                EXTI4_15_IRQHandler
  .text.HardFault_Handler
-                0x080042b4        0x8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x080042b4                HardFault_Handler
+                0x0800459c        0x8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x0800459c                HardFault_Handler
  .text.NMI_Handler
-                0x080042bc        0x8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x080042bc                NMI_Handler
+                0x080045a4        0x8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x080045a4                NMI_Handler
  .text.WWDG_IRQHandler
-                0x080042c4        0x8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x080042c4                WWDG_IRQHandler
+                0x080045ac        0x8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x080045ac                WWDG_IRQHandler
  .text.I2C_init
-                0x080042cc       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(i2c.o)
-                0x080042cc                I2C_init
+                0x080045b4       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(i2c.o)
+                0x080045b4                I2C_init
  .text.I2C_write_read
-                0x080042fc      0x160 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(i2c.o)
-                0x080042fc                I2C_write_read
+                0x080045e4      0x160 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(i2c.o)
+                0x080045e4                I2C_write_read
  .text.LED_set_toggle_color
-                0x0800445c        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(led.o)
-                0x0800445c                LED_set_toggle_color
+                0x08004744        0xc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(led.o)
+                0x08004744                LED_set_toggle_color
  .text.LED_toggle
-                0x08004468       0x5c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(led.o)
-                0x08004468                LED_toggle
+                0x08004750       0x5c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(led.o)
+                0x08004750                LED_toggle
  .text.my_memcpy
-                0x080044c4       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(my_string.o)
-                0x080044c4                my_memcpy
+                0x080047ac       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(my_string.o)
+                0x080047ac                my_memcpy
  .text.my_memcmp
-                0x080044e0       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(my_string.o)
-                0x080044e0                my_memcmp
+                0x080047c8       0x1c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(my_string.o)
+                0x080047c8                my_memcmp
  .text.RF_API_init
-                0x080044fc       0x64 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x080044fc                RF_API_init
+                0x080047e4       0x64 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x080047e4                RF_API_init
  .text.RF_API_stop
-                0x08004560       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x08004560                RF_API_stop
+                0x08004848       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004848                RF_API_stop
  .text.RF_API_send
-                0x08004588       0x3c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x08004588                RF_API_send
+                0x08004870       0x3c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004870                RF_API_send
  .text.RF_API_change_frequency
-                0x080045c4      0x180 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x080045c4                RF_API_change_frequency
+                0x080048ac      0x180 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x080048ac                RF_API_change_frequency
  .text.RF_API_wait_frame
-                0x08004744       0xe0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x08004744                RF_API_wait_frame
+                0x08004a2c       0xe0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004a2c                RF_API_wait_frame
  .text.RF_API_wait_for_clear_channel
-                0x08004824       0xb0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x08004824                RF_API_wait_for_clear_channel
+                0x08004b0c       0xb0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004b0c                RF_API_wait_for_clear_channel
  .text.SIGFOX_CRC_crc16
-                0x080048d4       0x3c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
-                0x080048d4                SIGFOX_CRC_crc16
+                0x08004bbc       0x3c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
+                0x08004bbc                SIGFOX_CRC_crc16
  .text.SIGFOX_CRC_crc8
-                0x08004910       0x34 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
-                0x08004910                SIGFOX_CRC_crc8
+                0x08004bf8       0x34 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
+                0x08004bf8                SIGFOX_CRC_crc8
  .text.SIGFOX_DECODE_dewhitening_pn
-                0x08004944       0x26 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
- *fill*         0x0800496a        0x2 
+                0x08004c2c       0x26 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+ *fill*         0x08004c52        0x2 
  .text.SIGFOX_DECODE_decode_frame
-                0x0800496c      0x164 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
-                0x0800496c                SIGFOX_DECODE_decode_frame
+                0x08004c54      0x164 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+                0x08004c54                SIGFOX_DECODE_decode_frame
  .text.SIGFOX_HMAC_compute_aes
-                0x08004ad0       0x54 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
-                0x08004ad0                SIGFOX_HMAC_compute_aes
+                0x08004db8       0x54 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
+                0x08004db8                SIGFOX_HMAC_compute_aes
  .text.PCD_WritePMA
-                0x08004b24       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004e0c       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
  .text.PCD_ReadPMA
-                0x08004b4c       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004e34       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
  .text.HAL_PCD_SetAddress
-                0x08004b6c       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004b6c                HAL_PCD_SetAddress
+                0x08004e54       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004e54                HAL_PCD_SetAddress
  .text.HAL_PCD_EP_Open
-                0x08004b98      0x2b0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004b98                HAL_PCD_EP_Open
+                0x08004e80      0x2b0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004e80                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Receive
-                0x08004e48       0xe8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004e48                HAL_PCD_EP_Receive
+                0x08005130       0xe8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08005130                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_Transmit
-                0x08004f30      0x1e4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004f30                HAL_PCD_EP_Transmit
+                0x08005218      0x1e4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08005218                HAL_PCD_EP_Transmit
  .text.HAL_PCD_IRQHandler
-                0x08005114      0x464 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08005114                HAL_PCD_IRQHandler
+                0x080053fc      0x464 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x080053fc                HAL_PCD_IRQHandler
  .text.HAL_PCD_EP_SetStall
-                0x08005578       0x90 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08005578                HAL_PCD_EP_SetStall
+                0x08005860       0x90 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08005860                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x08005608       0xbc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08005608                HAL_PCD_EP_ClrStall
+                0x080058f0       0xbc C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x080058f0                HAL_PCD_EP_ClrStall
  .text.MODULATION_ramp_up
-                0x080056c4       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x080059ac       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
  .text.MODULATION_ramp_down
-                0x080056ec       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x080059d4       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
  .text.MODULATION_init
-                0x08005718       0xe0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005718                MODULATION_init
+                0x08005a00       0xe0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005a00                MODULATION_init
  .text.MODULATION_stop
-                0x080057f8       0x3c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x080057f8                MODULATION_stop
+                0x08005ae0       0x3c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005ae0                MODULATION_stop
  .text.MODULATION_process
-                0x08005834       0xa4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005834                MODULATION_process
+                0x08005b1c       0xa4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005b1c                MODULATION_process
  .text.TIM2_IRQHandler
-                0x080058d8       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x080058d8                TIM2_IRQHandler
+                0x08005bc0       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005bc0                TIM2_IRQHandler
  .text.__libc_init_array
-                0x08005904       0x44 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
-                0x08005904                __libc_init_array
- .text.memset   0x08005948       0xa8 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
-                0x08005948                memset
+                0x08005bec       0x44 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+                0x08005bec                __libc_init_array
+ .text.memset   0x08005c30       0xa8 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+                0x08005c30                memset
  *(.glue_7)
- .glue_7        0x080059f0        0x0 linker stubs
+ .glue_7        0x08005cd8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080059f0        0x0 linker stubs
+ .glue_7t       0x08005cd8        0x0 linker stubs
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x080059f0                . = ALIGN (0x4)
-                0x080059f0                _etext = .
+                0x08005cd8                . = ALIGN (0x4)
+                0x08005cd8                _etext = .
 
-.vfp11_veneer   0x080059f0        0x0
- .vfp11_veneer  0x080059f0        0x0 linker stubs
+.vfp11_veneer   0x08005cd8        0x0
+ .vfp11_veneer  0x08005cd8        0x0 linker stubs
 
-.v4_bx          0x080059f0        0x0
- .v4_bx         0x080059f0        0x0 linker stubs
+.v4_bx          0x08005cd8        0x0
+ .v4_bx         0x08005cd8        0x0 linker stubs
 
-.iplt           0x080059f0        0x0
- .iplt          0x080059f0        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
+.iplt           0x08005cd8        0x0
+ .iplt          0x08005cd8        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
 
-.rodata         0x080059f0      0x3f4
-                0x080059f0                . = ALIGN (0x4)
+.rodata         0x08005cd8      0x3f0
+                0x08005cd8                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x080059f0       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
- .rodata        0x08005a00       0x34 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08005a00                fsync_lut_tx
-                0x08005a24                public_key
- .rodata        0x08005a34       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
- .rodata        0x08005a44      0x100 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(aes.o)
-                0x08005a44                STable
- .rodata        0x08005b44      0x190 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
- .rodata        0x08005cd4       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
-                0x08005cd4                pow_alpha
-                0x08005ce4                log_alpha
- .rodata        0x08005cf4       0xac c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
- .rodata        0x08005da0       0x40 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .rodata        0x08005cd8       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+ .rodata        0x08005ce8       0x34 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08005ce8                fsync_lut_tx
+                0x08005d0c                public_key
+ .rodata        0x08005d1c       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
+ .rodata        0x08005d2c      0x100 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(aes.o)
+                0x08005d2c                STable
+ .rodata        0x08005e2c      0x190 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+ .rodata        0x08005fbc       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+                0x08005fbc                pow_alpha
+                0x08005fcc                log_alpha
+ .rodata        0x08005fdc       0xac c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+ .rodata        0x08006088       0x40 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
  *(.rodata*)
- .rodata.str1.1
-                0x08005de0        0x3 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
-                0x08005de4                . = ALIGN (0x4)
- *fill*         0x08005de3        0x1 
+                0x080060c8                . = ALIGN (0x4)
 
-.rel.dyn        0x08005de4        0x0
- .rel.iplt      0x08005de4        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
+.rel.dyn        0x080060c8        0x0
+ .rel.iplt      0x080060c8        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
 
-.ARM.extab      0x08005de4        0x0
-                0x08005de4                . = ALIGN (0x4)
+.ARM.extab      0x080060c8        0x0
+                0x080060c8                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08005de4                . = ALIGN (0x4)
+                0x080060c8                . = ALIGN (0x4)
 
-.ARM            0x08005de4        0x0
-                0x08005de4                . = ALIGN (0x4)
-                0x08005de4                __exidx_start = .
+.ARM            0x080060c8        0x0
+                0x080060c8                . = ALIGN (0x4)
+                0x080060c8                __exidx_start = .
  *(.ARM.exidx*)
-                0x08005de4                __exidx_end = .
-                0x08005de4                . = ALIGN (0x4)
+                0x080060c8                __exidx_end = .
+                0x080060c8                . = ALIGN (0x4)
 
-.preinit_array  0x08005de4        0x0
-                0x08005de4                . = ALIGN (0x4)
-                0x08005de4                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080060c8        0x0
+                0x080060c8                . = ALIGN (0x4)
+                0x080060c8                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08005de4                PROVIDE (__preinit_array_end = .)
-                0x08005de4                . = ALIGN (0x4)
+                0x080060c8                PROVIDE (__preinit_array_end = .)
+                0x080060c8                . = ALIGN (0x4)
 
-.init_array     0x08005de4        0x0
-                0x08005de4                . = ALIGN (0x4)
-                0x08005de4                PROVIDE (__init_array_start = .)
+.init_array     0x080060c8        0x0
+                0x080060c8                . = ALIGN (0x4)
+                0x080060c8                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
-                0x08005de4                PROVIDE (__init_array_end = .)
-                0x08005de4                . = ALIGN (0x4)
+                0x080060c8                PROVIDE (__init_array_end = .)
+                0x080060c8                . = ALIGN (0x4)
 
-.fini_array     0x08005de4        0x0
-                0x08005de4                . = ALIGN (0x4)
+.fini_array     0x080060c8        0x0
+                0x080060c8                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
                 [!provide]                PROVIDE (__fini_array_end = .)
-                0x08005de4                . = ALIGN (0x4)
-                0x08005de4                _sidata = LOADADDR (.data)
+                0x080060c8                . = ALIGN (0x4)
+                0x080060c8                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x1e8 load address 0x08005de4
+.data           0x20000000      0x1e8 load address 0x080060c8
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1614,11 +1604,11 @@ LOAD C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-l
  *fill*         0x200001e7        0x1 
                 0x200001e8                _edata = .
 
-.igot.plt       0x200001e8        0x0 load address 0x08005fcc
+.igot.plt       0x200001e8        0x0 load address 0x080062b0
  .igot.plt      0x200001e8        0x0 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
                 0x200001e8                . = ALIGN (0x4)
 
-.bss            0x200001e8      0x5d0 load address 0x08005fcc
+.bss            0x200001e8      0x5d0 load address 0x080062b0
                 0x200001e8                _sbss = .
                 0x200001e8                __bss_start__ = _sbss
  *(.bss)
@@ -1669,7 +1659,7 @@ LOAD C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-l
                 0x200007b8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200007b8      0x400 load address 0x08005fcc
+                0x200007b8      0x400 load address 0x080062b0
                 0x200007b8                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
@@ -1707,82 +1697,84 @@ LOAD C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-l
  .ARM.attributes
                 0x0000018c       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
  .ARM.attributes
-                0x000001b8       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+                0x000001b8       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
  .ARM.attributes
-                0x000001e4       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x000001e4       0x2c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
  .ARM.attributes
-                0x00000215       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x00000210       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
  .ARM.attributes
-                0x00000246       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x00000241       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
  .ARM.attributes
-                0x00000277       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x00000272       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(radio.o)
  .ARM.attributes
-                0x000002a8       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x000002a3       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rtc.o)
  .ARM.attributes
-                0x000002d9       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x000002d4       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
  .ARM.attributes
-                0x0000030a       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x00000305       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
  .ARM.attributes
-                0x0000033b       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
+                0x00000336       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
  .ARM.attributes
-                0x0000036c       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
+                0x00000367       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
  .ARM.attributes
-                0x0000039d       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sleep.o)
+                0x00000398       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
  .ARM.attributes
-                0x000003ce       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x000003c9       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sleep.o)
  .ARM.attributes
-                0x000003ff       0x21 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
+                0x000003fa       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(spi.o)
  .ARM.attributes
-                0x00000420       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
+                0x0000042b       0x21 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
  .ARM.attributes
-                0x00000451       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(systick.o)
+                0x0000044c       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
  .ARM.attributes
-                0x00000482       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(uart.o)
+                0x0000047d       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(systick.o)
  .ARM.attributes
-                0x000004b3       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x000004ae       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(uart.o)
  .ARM.attributes
-                0x000004e4       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x000004df       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
  .ARM.attributes
-                0x00000515       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x00000510       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
  .ARM.attributes
-                0x00000546       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x00000541       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
  .ARM.attributes
-                0x00000577       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(watchdog.o)
+                0x00000572       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
  .ARM.attributes
-                0x000005a8       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x000005a3       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(watchdog.o)
  .ARM.attributes
-                0x000005d9       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(aes.o)
+                0x000005d4       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(adc.o)
  .ARM.attributes
-                0x0000060a       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x00000605       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(aes.o)
  .ARM.attributes
-                0x0000063b       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x00000636       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(calib.o)
  .ARM.attributes
-                0x0000066c       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(crc.o)
+                0x00000667       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(cc1125.o)
  .ARM.attributes
-                0x0000069d       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x00000698       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(crc.o)
  .ARM.attributes
-                0x000006ce       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x000006c9       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(flash.o)
  .ARM.attributes
-                0x000006ff       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(i2c.o)
+                0x000006fa       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(gpio.o)
  .ARM.attributes
-                0x00000730       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(led.o)
+                0x0000072b       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(i2c.o)
  .ARM.attributes
-                0x00000761       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(my_string.o)
+                0x0000075c       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(led.o)
  .ARM.attributes
-                0x00000792       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x0000078d       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(my_string.o)
  .ARM.attributes
-                0x000007c3       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
+                0x000007be       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(rf_api.o)
  .ARM.attributes
-                0x000007f4       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+                0x000007ef       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
  .ARM.attributes
-                0x00000825       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
+                0x00000820       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
  .ARM.attributes
-                0x00000856       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x00000851       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
  .ARM.attributes
-                0x00000887       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x00000882       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+ .ARM.attributes
+                0x000008b3       0x31 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
 OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/bin//sensit.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x21ad
+.debug_info     0x00000000     0x2836
  .debug_info    0x00000000      0x3f1 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
  .debug_info    0x000003f1      0x206 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//button.o
  .debug_info    0x000005f7      0x323 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//battery.o
@@ -1793,9 +1785,10 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .debug_info    0x000011e2      0x38f C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//hts221.o
  .debug_info    0x00001571      0x399 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//ltr329.o
  .debug_info    0x0000190a      0x553 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .debug_info    0x00001e5d      0x350 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+ .debug_info    0x00001e5d      0x32d C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+ .debug_info    0x0000218a      0x6ac C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
 
-.debug_abbrev   0x00000000      0xe15
+.debug_abbrev   0x00000000      0xf82
  .debug_abbrev  0x00000000      0x154 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
  .debug_abbrev  0x00000154      0x125 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//button.o
  .debug_abbrev  0x00000279      0x19e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//battery.o
@@ -1806,9 +1799,10 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .debug_abbrev  0x00000894      0x158 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//hts221.o
  .debug_abbrev  0x000009ec      0x156 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//ltr329.o
  .debug_abbrev  0x00000b42      0x182 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .debug_abbrev  0x00000cc4      0x151 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+ .debug_abbrev  0x00000cc4       0xf7 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+ .debug_abbrev  0x00000dbb      0x1c7 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
 
-.debug_loc      0x00000000      0xd26
+.debug_loc      0x00000000      0xde2
  .debug_loc     0x00000000      0x112 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
  .debug_loc     0x00000112       0xb8 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//button.o
  .debug_loc     0x000001ca       0x8a C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//battery.o
@@ -1818,9 +1812,10 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .debug_loc     0x000005d6      0x28c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//hts221.o
  .debug_loc     0x00000862      0x19d C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//ltr329.o
  .debug_loc     0x000009ff      0x289 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .debug_loc     0x00000c88       0x9e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+ .debug_loc     0x00000c88       0xa3 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+ .debug_loc     0x00000d2b       0xb7 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
 
-.debug_aranges  0x00000000      0x1b8
+.debug_aranges  0x00000000      0x1d8
  .debug_aranges
                 0x00000000       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
  .debug_aranges
@@ -1842,9 +1837,11 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .debug_aranges
                 0x00000150       0x48 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
  .debug_aranges
-                0x00000198       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+                0x00000198       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+ .debug_aranges
+                0x000001b8       0x20 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
 
-.debug_ranges   0x00000000      0x108
+.debug_ranges   0x00000000      0x118
  .debug_ranges  0x00000000       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
  .debug_ranges  0x00000018       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//button.o
  .debug_ranges  0x00000028       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//battery.o
@@ -1855,9 +1852,10 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .debug_ranges  0x00000080       0x18 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//hts221.o
  .debug_ranges  0x00000098       0x28 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//ltr329.o
  .debug_ranges  0x000000c0       0x38 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .debug_ranges  0x000000f8       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+ .debug_ranges  0x000000f8       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+ .debug_ranges  0x00000108       0x10 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
 
-.debug_line     0x00000000     0x1306
+.debug_line     0x00000000     0x1551
  .debug_line    0x00000000      0x1c4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
  .debug_line    0x000001c4      0x107 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//button.o
  .debug_line    0x000002cb      0x10e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//battery.o
@@ -1868,9 +1866,10 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .debug_line    0x0000085c      0x2c9 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//hts221.o
  .debug_line    0x00000b25      0x25e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//ltr329.o
  .debug_line    0x00000d83      0x3a9 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .debug_line    0x0000112c      0x1da C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+ .debug_line    0x0000112c      0x1de C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+ .debug_line    0x0000130a      0x247 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
 
-.debug_str      0x00000000      0xb6d
+.debug_str      0x00000000      0xd47
  .debug_str     0x00000000      0x329 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
                                 0x34a (size before relaxing)
  .debug_str     0x00000329       0x6e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//button.o
@@ -1891,8 +1890,10 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
                                 0x31e (size before relaxing)
  .debug_str     0x000009a6      0x146 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
                                 0x356 (size before relaxing)
- .debug_str     0x00000aec       0x81 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
-                                0x3c2 (size before relaxing)
+ .debug_str     0x00000aec      0x1c9 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+                                0x380 (size before relaxing)
+ .debug_str     0x00000cb5       0x92 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+                                0x64a (size before relaxing)
 
 .comment        0x00000000      0x164
  .comment       0x00000000       0x76 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
@@ -1906,6 +1907,7 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .comment       0x00000076       0x77 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//hts221.o
  .comment       0x00000076       0x77 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//ltr329.o
  .comment       0x00000076       0x77 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
+ .comment       0x00000076       0x77 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
  .comment       0x00000076       0x77 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
  .comment       0x00000076       0x7e C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
                                  0x7f (size before relaxing)
@@ -1945,7 +1947,7 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .comment       0x00000164       0x7f C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
  .comment       0x00000164       0x7f C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/\libSENSIT_SDK_V2.0.0.a(modulation.o)
 
-.debug_frame    0x00000000      0x338
+.debug_frame    0x00000000      0x36c
  .debug_frame   0x00000000       0x44 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//error.o
  .debug_frame   0x00000044       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//button.o
  .debug_frame   0x00000074       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//battery.o
@@ -1956,4 +1958,5 @@ OUTPUT(C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020
  .debug_frame   0x00000170       0x4c C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//hts221.o
  .debug_frame   0x000001bc       0x88 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//ltr329.o
  .debug_frame   0x00000244       0xc4 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//fxos8700.o
- .debug_frame   0x00000308       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
+ .debug_frame   0x00000308       0x34 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//discovery.o
+ .debug_frame   0x0000033c       0x30 C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj//main.o
