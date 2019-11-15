@@ -7,14 +7,14 @@
 # SDK LIBRARY
 # -----------
 LIB_NAME = SENSIT_SDK_V2.0.0
-LIB_PATH = "C:\Users\iDevP\Drive\Programmes\C\HEI\HEI4 - ITI\GIT\Arduino 2\hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier\sensit-sdk-v2.0.0\sdk\lib"
+LIB_PATH = C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/lib/
 
 
 # --------------
 # OUTPUT FOLDERS
 # --------------
-BIN_PATH = "C:\Users\iDevP\Drive\Programmes\C\HEI\HEI4 - ITI\GIT\Arduino 2\hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier\sensit-sdk-v2.0.0\sdk\bin"
-OBJ_PATH = "C:\Users\iDevP\Drive\Programmes\C\HEI\HEI4 - ITI\GIT\Arduino 2\hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier\sensit-sdk-v2.0.0\sdk\obj"
+BIN_PATH = C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/bin/
+OBJ_PATH = C:/Users/iDevP/Drive/Programmes/C/HEI/HEI4-ITI/GIT/Arduino2/hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier/sensit-sdk-v2.0.0/sdk/obj/
 
 
 # ------------
@@ -190,5 +190,4 @@ dir:
 
 # Rule for USB flashing using dfu file manager (vendor id 0483)
 prog:
-    cd "C:\Users\iDevP\Drive\Programmes\C\HEI\HEI4 - ITI\GIT\Arduino2\hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier\dfu-util"
-	dfu-util -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
+	C:\Users\iDevP\Drive\Programmes\C\HEI\HEI4-ITI\GIT\Arduino2\hei-2019-2020-lab-sens-it-vanpeperstraete-guillez-astier\dfu-util\dfu-util -a 0 -s 0x08000000:leave -D $(BIN_PATH)$(BIN_OUTPUT)
